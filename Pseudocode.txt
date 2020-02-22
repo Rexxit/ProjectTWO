@@ -1,0 +1,83 @@
+Wayne's Pseudocode
+
+main()
+{ 
+	main method to run everything
+}
+myShell()
+{
+ 	this method is going to be the startup menu for the shell
+}
+
+desireInput(char*)
+{
+	this method is going to take the input of the user 
+	and utilize it for the program
+}
+
+execuInput(char*) 
+{
+	this method is going to execute the input 
+	the user inputs into the shell
+}
+
+pipePar(char*, char*)
+{
+	method to locate the pipe
+}
+
+spacePar(char*, char*)
+{
+	method to parse the commands that gets inputed
+}
+
+execuPiped(char*, char*)
+{
+	method to execute the piped commands
+}
+
+builtInCmds(char*) 
+{
+	this method is going to be used for the built in commands I implement. 
+	Utilizing a switch statement here
+}
+
+chanDir(char*)
+{
+	change the directory
+}
+
+printDir(char*)
+{
+	prints the directory
+}
+
+clearScr()
+{
+	clears the screen
+}
+
+environ()
+{
+	list all the environment strings
+}
+
+echo()
+{
+	echos a comment
+}
+
+help()
+{
+	displays help menu
+}
+
+pause()
+{
+	pause the shell
+}
+
+quit()
+{ 
+	quits the shell (exit(1))
+}
